@@ -1,0 +1,75 @@
+*{
+    background-color:#1C2A62;
+}
+
+.intro{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.descrizione{
+    text-align: center;
+}
+
+.h1Text{
+    color: #F9A826;
+    font-size: 45px;
+}
+
+.h2Text{
+    text-align: center; 
+    color: #F9A826;
+    font-size: 40px;
+}
+
+.h3Text{
+    color: white;
+}
+
+.pText{
+    max-width: 700px; 
+    margin: auto; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.funcDiv{
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+}
+
+.funcDescriptionDiv{
+    max-width: 300px; 
+    text-align: center;
+}
+
+.iconStyle{
+    width: 80px;
+    color: #F9A826;
+}
+
+.inputFields{
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+}
+
+.input{
+  background-color: beige;  
+}
+
+.bttnFields{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn{
+    background-color: beige;
+}

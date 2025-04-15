@@ -1,0 +1,141 @@
+*{
+    background-color:#1C2A62;
+}
+
+/* Nome e Cognome */
+
+.signature{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+/* Immagine Personale */
+
+#fotoMia{
+    height: 400px;
+    width: 300px;
+    border-radius: 28%;
+}
+
+#titolo{
+    color: #BBC0D0;
+}
+
+.titoloPagina{    
+    font-size:larger;
+}
+
+.origins{
+    font-style: italic; color: #ccc; font-size: 17px;
+    text-align: center;
+    font-size: 30px;
+}
+.itFlag{
+    height: 24px; 
+    vertical-align: middle; 
+    margin-left: 10px;
+}
+
+.sectionTitle{
+    font-weight: bold;
+    font-size:30px;
+    padding: 20px;
+    color: #BBC0D0;
+    text-align: center;
+}
+
+.paragrafo{
+    font-family: 'IBM Plex Sans', sans-serif Didot (serif);
+    font-size: larger;
+    color: #BBC0D0;
+    font-size: 25px;
+    margin: 30px;
+    word-spacing: 4px;
+    line-height: 1.8;
+}
+
+.lista{
+    font-family: 'IBM Plex Sans', sans-serif Didot (serif);
+    font-size: larger;
+    color: #BBC0D0;
+    font-size: 25px;
+}
+
+ul > li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;;
+    list-style: none;
+}
+
+.Edu{
+  text-align: center;
+  font-family: 'IBM Plex Sans', serif;
+  font-size: 25px;
+  color: #BBC0D0;
+}
+
+.Edu table {
+   margin: 20px auto;
+   border-collapse: collapse;
+   width: 80%;
+}
+.Edu th, .Edu td {
+   border: 2px solid #BBC0D0;
+   padding: 12px 18px;
+   text-align: center;
+   color: #BBC0D0;
+}
+  
+.Edu th {
+   background-color: #bb3b3b;
+   font-weight: bold;
+}
+  
+
+.contatti{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif Didot (serif);
+    font-size: larger;
+    color: #BBC0D0;
+    font-size: 25px;
+}
+
+.contatti table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%; 
+ }
+ .contatti th, .contatti td {
+    padding: 12px 18px;
+    text-align: center;
+ }
+   
+ .contatti th {
+    font-weight: bold;
+ }
+ 
+ .custom-email {
+    color: #F9A826;
+    text-decoration: none;
+  }
+  .custom-email:hover {
+    text-decoration: underline;
+    color: #bb3b3b;
+  }
+
+  .custom-phone{
+    color: #F9A826;
+  }
+
+  .custom-phone:hover {
+    color: #bb3b3b;
+  }
+
+.footer{
+   padding-top: 50px; 
+   text-align: center;
+   color: #BBC0D0;
+   font-size: 20px;
+}

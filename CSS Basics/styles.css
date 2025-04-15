@@ -1,0 +1,66 @@
+*{
+    background-color: #2c3e50; /* darker side of the gradient */
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Prata', serif; 
+    font-size: 64px; 
+    font-weight: 400; 
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+h3{
+  font-family: 'Prata', serif; 
+  font-size: 24px; 
+  font-weight: 400; 
+  margin-top: 0; 
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h6{  
+  padding: 22px;
+  margin-top: 56px;
+  margin-bottom: 0;
+  color: white;
+  border-radius: 6px;
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  text-align: center;      
+}
+  
+/* Montserrat 400 italic */
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Montserrat 600 italic */
+strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.list{
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.listPlaces{
+  padding: 30px;
+}
+
+.image-container{
+  display: block; 
+  margin: 0 auto;  
+}
+
+.footer{
+  text-align: center;
+  text-decoration: none;
+}
+  

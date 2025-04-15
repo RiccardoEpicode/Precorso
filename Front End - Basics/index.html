@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form and Input fields</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <section>
+    <div class="intro">
+      <h1 class="h1Text">Registrazione alla Piattaforma di Streaming Musicale</h1>
+    </div>
+  </section>
+
+  <section class="descrizione">
+    <p class="pText">
+      Benvenuto nella nostra piattaforma di streaming musicale! Compila il modulo per creare il tuo profilo e accedere a milioni di brani, playlist personalizzate e funzionalità esclusive pensate per te.
+    </p>
+  
+    <h2 class="h2Text">Scopri le Funzionalità</h2>
+    <div class="funcDiv">
+      <div class="funcDescriptionDiv">
+        <img class="iconStyle" src="https://cdn-icons-png.flaticon.com/512/727/727245.png" alt="Playlist Icon">
+        <h3 class="h3Text">Playlist Personalizzate</h3>
+        <p class="pText">Crea playlist su misura per ogni momento della giornata grazie al nostro algoritmo intelligente.</p>
+      </div>
+      <div class="funcDescriptionDiv">
+        <img class="iconStyle" src="https://cdn-icons-png.flaticon.com/512/727/727218.png" alt="Offline Music Icon">
+        <h3 class="h3Text">Ascolta Offline</h3>
+        <p class="pText">Scarica la tua musica preferita e ascoltala ovunque, anche senza connessione.</p>
+      </div>
+      <div class="funcDescriptionDiv">
+        <img class="iconStyle" src="https://cdn-icons-png.flaticon.com/512/727/727240.png" alt="Premium Icon">
+        <h3 class="h3Text">Esperienza Premium</h3>
+        <p class="pText">Zero pubblicità, audio di qualità superiore e salti illimitati: la musica come dovrebbe essere.</p>
+      </div>
+    </div>
+  
+    <h2 class="h2Text">Registrati Ora</h2>
+    <p class="pText">
+      Bastano pochi secondi per iniziare la tua esperienza musicale. Inserisci i tuoi dati nel form qui sotto e preparati a lasciarti trasportare dal suono!
+    </p>
+  </section>
+
+
+  <section>
+    <form onsubmit="alert('Form Inviato!'); location.reload();">
+      <div class="inputFields">
+      <input class="input" type="text" placeholder="Inserisci il tuo nome" />
+      </div>
+      <div class="inputFields">
+      <input class="input" type="text" placeholder="Inserisci il tuo cognome" />
+      </div>
+      <div class="inputFields">
+        <input class="input" type="email" placeholder="Inserisci la tua email"/>
+      </div>
+      <div class="inputFields">
+        <input class="input" type="password" placeholder="Crea una password"/>
+      </div>
+      <div class="inputFields">
+        <input class="input" type="password" placeholder="Conferma la password"/>
+      </div>
+      <div class="inputFields">
+        <input class="input" type="date"/>
+      </div>
+      <div class="inputFields">
+      <input class="input" type="number" placeholder="Inserisci il numero di telefono" />
+      </div>
+      <div class="inputFields">
+        <h2>Seleziona i tuoi generi preferiti</h2>
+        <input class="input" type="checkbox"/>🎸 Rock
+        <input class="input" type="checkbox"/>🎧 Elettronica
+        <input class="input" type="checkbox"/>🎤 Pop
+        <input class="input" type="checkbox"/>🪘 Reggaeton
+      </div>
+      <div class="inputFields">
+        <input class="input" type="radio"/> Consento ai termini e condizioni <a href="www.agreements.com" target="_blank">Agreements</a>
+      </div>
+      <div class="bttnFields">
+        <button class="btn" type="submit">Invia Form</button>
+      </div>
+    </form>
+  </section>
+  
+</body>
+</html>
